@@ -1,0 +1,47 @@
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.arrowRight {
+  position: absolute;
+  top: 7%;
+}
+.card {
+  display: -webkit-box;
+}
+.inputDiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+.framCard {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  width: 100%;
+}
+.bottomDiv{
+  position: relative;
+    left: 40%;
+    bottom: 1rem;
+}
+.cardWithoutDetail{
+  height: 20rem;
+}
+.btnDiv{
+  position: relative;
+    top: 6px;
+    display: flex;
+    justify-content: space-evenly;
+}
